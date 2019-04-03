@@ -26,7 +26,6 @@ case $Mobility in
     echo "Is desktop so proceeding."
     ;;
 esac
-
 Network=$(get_network)
 if [ ${Network} = "pass" ]; then
     check_for_update
